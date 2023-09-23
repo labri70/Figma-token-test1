@@ -1,0 +1,18 @@
+{
+  "name": "figma-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "token-transformer ./tokens/tokens.json ./json/light.json global,light && style-dictionary build",
+    "clean": "rm -rf css json"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
+  }
+}
